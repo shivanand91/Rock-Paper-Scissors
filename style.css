@@ -50,14 +50,29 @@ img{
     align-items: center;
 }
 @media (max-width: 980px) {
+.navBar h1{
+        font-size: 1.3rem;
+    }
     .container{
-       flex-direction: column;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 1rem;
     }
 
     .btnContainer{
 
         margin-bottom: 4rem;
     }
+    .scoreBoard{
+
+        gap: 2rem;
+    }
+
+    img{
+        height: 180px;
+        width: 180px;
+    }
+    
 }
 .box{
     
